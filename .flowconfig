@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/fbjs/.*
+.*/node_modules/findup/.*
+.*/node_modules/stylelint/.*
+.*/__tests__/.*
+
+[libs]
+declarations/
+flow-typed/

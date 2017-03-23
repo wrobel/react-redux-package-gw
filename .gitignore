@@ -1,0 +1,6 @@
+node_modules/
+/npm-debug.log
+/*.tgz
+/test/helper
+/webpack/lib
+/.emacs.js.el

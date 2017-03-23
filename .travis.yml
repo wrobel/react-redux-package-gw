@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '4'
+- '5'
+- '6'
+- stable
+script: npm run build
+deploy:
+  provider: npm
+  email: p@rdus.de
+  skip_cleanup: true
+  on:
+    tags: true
+  api_key:
+    secure: ojcJSbDTJgFjVOKNx9mdDssnExVOsYDzYiHk6w7+vP2yv0eGlXuXnROBg7rCVmj6rvvf7WX1NNcHkTMmHxFpKHKgJW9yfWglbm3Q/H14fIz3IHoYybnYrbCPF9/lLG3I1iWisvYW+qH1KDbGJhlAXkfwWQ3Ir1Oo7E/GONSxteOslwnSv+YT9laZqBCf5TOpER/8uKwvILBaeoJkN8cbF6zdO+aYjdcs0wheRAgdRNk9l44ppDc6RI9por3AXGDubYNQk6VwjwBstY3F9r/JTnjxeQdzY4xAmK7CN2SCJr0fnWLxeNneAuPKJ3SucR+Ysj2NR7Pumi8ELWSFrWIYX48HEUMUcu0Zgx8eMT8NomaPLE6Kv8MxDklrjtEP4tMg3EoNjCi/3uo8f6Ltg45QxdUmIL+yN9QpYwK6Yct0sNpHYyttxIKHf699lLLZS3OhepXVMUziPv+ip+/ydkA/UoNcIG27ebhH6uisiRRfI+JmGLQatVQVBXJ7k0jD30jsLn7unJ60uQSFgM+d8MQP2VVBrL1nv+r9s9qIwiis60/pkFEcFKmQ64Fb8RDF6ESB+DM7OHV2iqAocaqCfvhM5u5W06n1KqUwJwxbL3lbMDeRS3MFJ3HCdILpAmlqmyUDqqRYLsPGNI8nkUtkDcc/y9tu5mGIS49m0oS6gKAWxRk=

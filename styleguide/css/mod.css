@@ -1,0 +1,11 @@
+.ReactStyleguidist-StyleGuide__sidebar {
+    width: 300px;
+}
+
+.ReactStyleguidist-StyleGuide__root.ReactStyleguidist-StyleGuide__hasSidebar {
+    padding-left: 300px;
+}
+
+.ReactStyleguidist-StyleGuide__content {
+    max-width: 2000px;
+}

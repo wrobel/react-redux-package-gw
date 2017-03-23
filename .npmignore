@@ -1,0 +1,7 @@
+/.travis.yml
+/.emacs.js.el
+node_modules/
+/npm-debug.log
+/*.tgz
+/test/src/helper
+/webpack/src
